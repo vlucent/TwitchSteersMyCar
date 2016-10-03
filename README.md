@@ -6,7 +6,7 @@ We were inspired by the [Twitch Plays Pokemon](https://www.twitch.tv/twitchplays
 The project involves the control of an off-the-shelf Remote Control toy car 
 using commands typed in the chatbox of the [twitch stream](https://www.twitch.tv/hackumbcdrives).
 
-<img src="https://raw.githubusercontent.com/vlucent/TwitchSteersMyCar/master/Images/example.png" height="400px">
+<img src="https://raw.githubusercontent.com/vlucent/TwitchSteersMyCar/master/Images/example.png" height="200px">
 
 
 The RC car and its controller was dissassembled to access the electronics inside.
@@ -17,3 +17,4 @@ The Raspberry Pi was responsible for parsing messages for commands from the live
 
 The result is a car. whose control is democratized to a web-enabled chat stream.
 
+Needs images
