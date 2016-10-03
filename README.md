@@ -19,9 +19,7 @@ The Raspberry Pi was responsible for parsing messages for commands from the live
 
 <img src="https://raw.githubusercontent.com/vlucent/TwitchSteersMyCar/master/Images/raspiWiring.jpg" height="200px">
 
-The result is a car. whose control is democratized to a web-enabled chat stream.
+The result is a car, whose control is democratized to a web-enabled chat stream.
 
 To try the script on your own project, run the test.py script on your Raspberry Pi with the drive motors connected to GPIO pins 23 & 24, and steering connected to pins 27 & 22.
 There is also a handy test [script](https://raw.githubusercontent.com/vlucent/TwitchSteersMyCar/master/Try2/testGPIO.py) to see if you wired the motors correctly.
-
-
