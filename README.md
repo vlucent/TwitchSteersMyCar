@@ -26,6 +26,15 @@ The result is a car, whose control is democratized to a web-enabled chat stream.
 To try the script on your own project, run the [test.py](https://raw.githubusercontent.com/vlucent/TwitchSteersMyCar/master/src/test.py) script on your Raspberry Pi with the drive motors connected to GPIO pins 23 & 24, and steering connected to pins 27 & 22.
 There is also a handy test [script](https://raw.githubusercontent.com/vlucent/TwitchSteersMyCar/master/src/testGPIO.py) to see if you wired the motors correctly.
 
+# Challenges in this Project
+There were several challenges that needed to be solved in order for full functionality.
+The Raspi needed to fit in the chasis of the RC car along with the breadboard. THis caused us to dremmel and carve away material in the chasis so the the wiring could be routed inside the car. The raspi needed to fit in the car, but also have its hdmi and usb ports exposed for quick hot fixes that needed to be appplied.
+
+# Improvements
+Our project used a through-hole IC that needed a breadboard for wiring, which resulted in a larger amount of space just for wiring the Motor IC chip.
+In the future the breadboard coud be replaced with a smaller breakout board(link) and a surface-mout(link) version of the motor controller. This assembly could then be campactly fit on top of the Rasperry Pi 3.
+
+The Raspeberry Pi itself could be replaced with a Raspberry Pi Zero(link). This would trade-off the higher processing speed of the Pi3 for the slower processor on the Pi Zero. There would also be a lack of onboard wifi, though adding a wifi-card to the Pi Zero is possible and has been done(link) before. The Pi Zero and the breakout board could then be tucked neatly inside the Rc car with no need for physical modifications
 # License
 
 MIT
